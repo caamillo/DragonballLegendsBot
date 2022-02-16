@@ -1,0 +1,33 @@
+start:
+    CLICK 1147,980 # Menu
+    CLICK 774,762 # Story
+    SLEEP 3
+
+    CLICK 1019,985 # Continue
+    SLEEP 4
+
+loop:
+    CLICK 1015,869 # Skip
+    CLICK 1094,922 # Start
+    SLEEP 5
+
+    CLICK 819,647 # Select Goku1 as leader
+    CLICK 947,650 # Select Goku2 as second member
+    CLICK 1068,646 # Select Freezer as third member
+    CLICK 934,996 # Ready
+
+    WAITFOR goku
+    WAITBATTLE
+    CLICK 941,994 # Ok
+    SLEEP 3
+
+    CLICK 941,804 # Random Click
+    CLICK 941,804 # Random Click
+    CLICK 941,804 # Random Click
+
+    CLICK 1061,991 # Ok
+    SLEEP 0.5
+    CLICK 1063,685 # Yes
+
+    SKIP
+    SLEEP 2
